@@ -55,3 +55,38 @@ torrent-client/
 ├── go.sum            # Module checksums
 ├── .gitignore        # Ignores binaries, downloaded images, and state files
 └── README.md         # Documentation
+
+## Getting Started & Execution Guide
+
+### 1. Prerequisites
+Ensure you have the following installed on your system:
+- **Go**: Version 1.20 or later ([Download Go](https://go.dev/dl/))
+- **Git**: Installed and added to your system PATH
+
+Verify your Go environment by running:
+```bash
+go version
+
+
+2. Clone and Install Dependencies
+
+Clone the repository and fetch the required bencode parser:
+
+
+git clone [https://github.com/](https://github.com/)Buddy078/torrentclient.git
+cd torrentclient
+go mod tidy
+
+
+3. Build the Application
+
+On Windows (PowerShell):
+go build -o torrent-client.exe .
+
+
+On Linux / macOS (Terminal):
+
+go build -o torrent-client .
+chmod +x torrent-client
+
+
